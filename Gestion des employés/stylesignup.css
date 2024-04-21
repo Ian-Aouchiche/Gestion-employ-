@@ -1,0 +1,72 @@
+/* Style pour le formulaire d'inscription */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.btn-signup {
+    width: 100%;
+    padding: 10px;
+    background-color: #2bc48a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-signup:hover {
+    background-color: #249e74;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.two-column-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Ajoutez de l'espace entre les colonnes */
+}
+
+.input-group {
+    margin-bottom: 20px; /* Ajoutez un espace entre chaque champ */
+}
+
+.input-group label {
+    display: block;
+}
+

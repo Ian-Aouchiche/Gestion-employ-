@@ -1,0 +1,15 @@
++-------------------------+       +-------------------------+
+|           admins        |       |         employe         |
++-------------------------+       +-------------------------+
+| PK id                   |       | PK id                   |
+|    username             |       |    nom                  |
+|    prenom               |       |    prenom               |
+|    nom                  |       |    age                  |
+|    password             |       |    metier               |
+|    date_naissance       |       | FK id_admin             |
+|    mail                 |       +-------------------------+
+|    telephone            |
+|    adresse              |
+|    numero_admin   (UN)  |
++-------------------------+
+

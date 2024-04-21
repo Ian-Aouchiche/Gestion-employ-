@@ -1,0 +1,75 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Btn_add, .Btn_select, .Btn_logout {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.Btn_add:hover, .Btn_select:hover, .Btn_logout:hover {
+    background-color: #0056b3;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Style pour les lignes paires */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style pour les liens dans la table */
+table a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+table a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
